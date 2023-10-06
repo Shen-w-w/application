@@ -1,0 +1,60 @@
+body {
+  font-family: 'Noto Serif TC', serif;
+  background-color: rgb(177, 177, 177);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1300px;
+  min-height: 100px;
+  margin: 50px;
+  background-color: #fff;
+  display: grid;
+  grid: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.container p {
+  color: #3a3a3a;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.container .simple p {
+  margin-bottom: 50px;
+}
+
+.container .simple a {
+  margin-bottom: 50px;
+}
+
+
+h1 {
+  color: rgb(18, 13, 69);
+  text-align: center;
+}
+
+h3 {
+  color: rgb(18, 13, 69);
+  text-align: left;
+}
+
+div {
+  position: relative;
+  padding: 40px;
+  box-shadow: 3px 3px 9px rgb(133, 133, 133);
+}
+
+.selfIntro {
+  height: 480px;
+}
+
+.selfIntro iframe {
+  height: 80%;
+  width: 100%;
+}
